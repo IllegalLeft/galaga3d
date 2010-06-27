@@ -19,3 +19,5 @@ spawn.time = 100
 if laser.positive:
 	# add the game object
 	spawn.instantAddObject()
+
+#GIT ruleszzz
