@@ -1,3 +1,4 @@
+#Shooting Script for Galaga3D
 #Intro
 cont = GameLogic.getCurrentController()
 
