@@ -21,4 +21,3 @@ if laser.positive:
 	# add the game object
 	spawn.instantAddObject()
 
-#GIT ruleszzz
