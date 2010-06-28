@@ -21,6 +21,9 @@ if left.positive:
 if right.positive:
 	speed = -strafe
 
-#Not sure what this does, Sam?
+#Set LinVelocity to speed variable
+#Need to figure out why its deprecated)
 motion.setLinearVelocity(speed,0,0,1)
-gl.addActiveActuator(motion,1)
+
+#Activate the actuator
+cont.activate(motion)
