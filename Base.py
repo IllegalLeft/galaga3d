@@ -3,10 +3,10 @@ gl = GameLogic
 cont = gl.getCurrentController()
 
 #Sensors
-forward = cont.sensors["Up"]
-backward = cont.sensors["Back"]
-left = cont.sensors["Left"]
-right = cont.sensors["Right"]
+forward = cont.sensors["up"]
+backward = cont.sensors["back"]
+left = cont.sensors["left"]
+right = cont.sensors["right"]
 
 #Motion
 motion = cont.actuators["motion"]
@@ -17,9 +17,9 @@ strafe = 2
 
 #Set left & right motions wrt strafe variable
 if left.positive:
-	speed = strafe
-if right.positive:
 	speed = -strafe
+if right.positive:
+	speed = strafe
 
 #Set LinVelocity to speed variable
 #Need to figure out why its deprecated)
