@@ -3,11 +3,11 @@
 cont = GameLogic.getCurrentController()
 
 #Sensors
-laser = cont.sensors["Fire"]
+laser = cont.sensors["fire"]
 
 #Actuator
 # get actuator attached to the controller named Spawn
-spawn = cont.actuators["Spawn"]
+spawn = cont.actuators["spawn"]
 # tell AddObject actuator which object is to be added
 spawn.object = "laser"
 # set initial linear velocity
