@@ -1,0 +1,35 @@
+#######################
+# Galaga3D To Do List #
+#######################
+
+Updated:
+6:23 PM 18/07/2010
+
+
+
+Models:
+
+- drawings of possible enemies
+- simple enemy model
+- model space scenery objects
+
+
+Programming:
+
+- single shooting/only 2 bullets
+- tilting to the side when moving
+- make AI move side to side
+- make AI fly in
+- make menu
+
+
+Art:
+
+- texture player model
+- texture enemy model(s)
+- create space textures (asteroids, comets, planets, and sky/star box)
+- create menu buttons and background
+
+Etc.:
+
+- update this file
