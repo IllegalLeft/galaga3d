@@ -21,9 +21,10 @@ if left.positive:
 if right.positive:
 	speed = strafe
 
-#Set LinVelocity to speed variable
-#Need to figure out why its deprecated)
-motion.setLinearVelocity(speed,0,0,1)
+#Use local linear velocity
+motion.useLocalLinV = True
+#Set LinV to speed variable
+motion.linV = (speed,0,0)
 
 #Activate the actuator
 cont.activate(motion)
