@@ -3,8 +3,6 @@ gl = GameLogic
 cont = gl.getCurrentController()
 
 #Sensors
-forward = cont.sensors["up"]
-backward = cont.sensors["back"]
 left = cont.sensors["left"]
 right = cont.sensors["right"]
 
