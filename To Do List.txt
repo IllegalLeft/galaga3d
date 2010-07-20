@@ -16,7 +16,6 @@ Models:
 
 Programming:
 
-- single shooting/only 2 bullets
 - tilting to the side when moving
 - make AI move side to side
 - make AI fly in
