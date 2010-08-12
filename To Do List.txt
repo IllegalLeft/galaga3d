@@ -11,14 +11,16 @@ Models:
 
 - drawings of possible enemies
 - simple enemy model
+- HQ player model
+- HQ enemy model
 - model space scenery objects
 
 
 Programming:
 
 - tilting to the side when moving
-- make AI move side to side
-- make AI fly in
+- Finish a row of AI
+- Finish a second row then a third
 - make menu
 
 
