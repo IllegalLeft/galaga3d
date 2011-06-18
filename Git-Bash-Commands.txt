@@ -7,7 +7,7 @@ Add Files:
 git add <file path here>
 
 Pull from Repo:
-git pull
+git pull origin master
 
 Push to Repo:
 git push
