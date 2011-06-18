@@ -1,0 +1,13 @@
+Git Bash Commands (in case we forget)
+
+Commit:
+git commit -a -m "comment here"
+
+Add Files:
+git add <file path here>
+
+Pull from Repo:
+git pull
+
+Push to Repo:
+git push
