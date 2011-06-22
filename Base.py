@@ -13,23 +13,21 @@ motion = cont.actuators["motion"]
 obj = cont.owner
 
 #Set variables
-leftrot = [0,-0.5,0]
-rightrot = [0,0.5,0]
-rot = [0,0,0]
 local = 0
 speed = 0
 strafe = 2
+#Rotation Variables
+rotation = 0
+rot_increment = 0.2
 
-#Set left & right motions wrt strafe variable
+#Set left & right motions with respect to strafe variable
 #WIP rotations for side-to-side movement
 if left.positive:
 	speed = -strafe
-#	obj.applyRotation (rot,local)
-	rot = leftrot
+	rotation = -rot_increment
 if right.positive:
 	speed = strafe
-#	obj.applyRotation (rot,local)
-	rot = rightrot
+	rotation = rot_increment
 
 #Use local linear velocity
 motion.useLocalLinV = False
@@ -40,4 +38,4 @@ motion.linV = (speed,0,0)
 cont.activate(motion)
 
 #Apply rotation
-obj.applyRotation (rot,local)
+obj.localOrientation = ([0,0,rotation],[0,1,0],[0,0,0])
