@@ -3,8 +3,7 @@
 #######################
 
 Updated:
-6:23 PM 18/07/2010
-
+10:20 PM 25/06/2011
 
 
 Models:
@@ -18,7 +17,7 @@ Models:
 
 Programming:
 
-- tilting to the side when moving
+- smoother tilting to the side when moving
 - Finish a row of AI
 - Finish a second row then a third
 - make menu
