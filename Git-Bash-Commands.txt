@@ -6,8 +6,15 @@ git commit -a -m "comment here"
 Add Files:
 git add <file path here>
 
+Ignore a file:
+git rm --cached <file>
+
+Delete a file from the repo and local disk:
+git rm <file>
+
 Pull from Repo:
 git pull origin master
 
 Push to Repo:
 git push origin master
+
