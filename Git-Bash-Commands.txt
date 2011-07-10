@@ -13,8 +13,21 @@ Delete a file from the repo and local disk:
 git rm <file>
 
 Pull from Repo:
-git pull origin master
+git pull origin <branch>
 
 Push to Repo:
-git push origin master
+git push origin <branch>
 
+##########################################
+##########################################
+Branches:
+
+Create Branch:
+git branch <branch>
+
+Delete Branch:
+git branch -d <branch>
+
+Merge Branches:
+git merge <branch>
+*Note that when merging, you must be in the parent branch that you will be merging in with the specified branch (from the command)
