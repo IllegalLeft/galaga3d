@@ -1,5 +1,8 @@
+
+from bge import logic
+
 #Intro
-gl = GameLogic
+gl = logic
 cont = gl.getCurrentController()
 
 #Sensors
@@ -15,7 +18,7 @@ obj = cont.owner
 #Set variables
 local = 0
 speed = 0
-strafe = 2
+strafe = 4
 #Rotation Variables
 rotation = 0
 rot_increment = 0.2
