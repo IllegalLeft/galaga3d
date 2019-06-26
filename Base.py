@@ -6,11 +6,11 @@ gl = logic
 cont = gl.getCurrentController()
 
 #Sensors
-left = cont.sensors["left"]
-right = cont.sensors["right"]
+left = cont.sensors["Left"]
+right = cont.sensors["Right"]
 
 #Motion
-motion = cont.actuators["motion"]
+motion = cont.actuators["Motion"]
 
 #Grab controller object for rotation
 obj = cont.owner
